@@ -1,0 +1,48 @@
+.button {
+  background-image: radial-gradient(rgb(255, 255, 168), #e9b149);
+}
+
+.home-banner {
+  background-image: url("https://t3.ftcdn.net/jpg/08/12/89/26/360_F_812892637_UZkBvNcf069Elv2t7j9344qvKnypcsOH.jpg");
+  height: 90vh;
+  background-size: cover;
+}
+
+.text-background {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61), transparent);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  padding-left: 35px;
+  align-items: start;
+}
+.founder-section {
+  background-color: #fffbe3;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding-right: 40px;
+}
+
+.founder-content {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #f1cb69;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+
+.founder-image {
+  position: absolute;
+  left: 35%;
+  top: 100px;
+  z-index: 1;
+}
+
+.focus-section {
+  background-color: #fdfaed;
+}
